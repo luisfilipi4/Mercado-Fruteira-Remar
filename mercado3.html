@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização e +</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+
+        @font-face {
+            font-family: 'titulo';
+            src: url(../Mercado/Lobster-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: 'menu';
+            src: url(../Mercado/Agbalumo-Regular.ttf);
+        }
+
+        body {
+            background-color: rgb(122, 122, 122);
+        }
+
+        .titulo1 {
+            position: relative;
+            top: 70px;
+            color: white;
+            text-align: center;
+            font-family: 'titulo';
+            font-size: 40px;
+        }
+
+
+        .div-pai {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        iframe {
+           margin-top: 10vh;
+           box-shadow: 1px 0px 20px 11px black;
+        }
+
+        iframe:hover {
+            box-shadow: 1px 0px 20px 11px gray;
+        }
+
+        .centro {
+            display: flex;
+            justify-content: center;
+        }
+
+        .material-symbols-outlined {
+            color: white;
+            text-decoration: none; 
+            line-height: 1;
+        }
+
+        .material-symbols-outlined:hover {
+            font-size: 1.6em;
+        }
+
+        @media screen and (max-height: 1080px) {
+        .material-symbols-outlined {
+            color: white;
+            text-decoration: none; 
+            line-height: 1;
+        }
+
+        .material-symbols-outlined:hover {
+            font-size: 1.6em;
+        }
+        }
+
+        @media screen and (max-height: 1080px) and (min-height: 710px)  {
+            .centro {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        @media screen and (min-height: 685px) and (max-height: 805px) {
+            .centro {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="titulo1">Google Maps</h2>
+        <main>
+            <nav>
+                <div class="div-pai">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.742321080018!2d-51.8197836482084!3d-30.865888600824526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951a7705b42014bf%3A0xe09e33c09ba47fe!2sMercado%20e%20fruteira%20Remar!5e0!3m2!1spt-BR!2sbr!4v1700155638427!5m2!1spt-BR!2sbr" width="430" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+                </div>
+            </nav>
+        </main>
+    </header>
+    <footer>
+        <div class="centro">
+            <a span class="material-symbols-outlined" href="./mercado.html"><h1>keyboard_backspace</h1></a>
+        </div>
+    </footer>
+</body>
+</html>
